@@ -3118,7 +3118,7 @@ function nextStep(current, next) {
     
     // Initialize BMT display
     const bmtDisplay = document.getElementById('bmt-display');
-    bmtDisplay.innerHTML = `<img src="assets/images/BMT.jpg" alt="Bone Marrow Transplant image">`;
+    bmtDisplay.innerHTML = `<img src="BMT.jpg" alt="Bone Marrow Transplant image">`;
     bmtDisplay.classList.add('visible');
     
     const bmtOptions = Object.keys(therapyLabData[selectedVector][selectedRoute]);
@@ -3141,7 +3141,7 @@ function nextStep(current, next) {
         
         // Show image based on BMT selection
         const bmtDisplay = document.getElementById('bmt-display');
-        bmtDisplay.innerHTML = `<img src="assets/images/BMT.jpg" alt="Bone Marrow Transplant image">`;
+        bmtDisplay.innerHTML = `<img src="BMT.jpg" alt="Bone Marrow Transplant image">`;
         bmtDisplay.classList.add('visible');
       });
       
